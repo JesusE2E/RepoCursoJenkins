@@ -27,7 +27,7 @@ pipeline{
             echo "Siempre se ewjecuta"
 
         }
-        sucess{
+        success{
               echo "exito"
         }
 
