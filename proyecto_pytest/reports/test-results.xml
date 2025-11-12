@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="4" time="0.211" timestamp="2025-11-11T23:48:51.706960-06:00" hostname="DESKTOP-4F58DTA"><testcase classname="tests.test_multiplicacion" name="test_multiplicacion" time="0.003" /><testcase classname="tests.test_multiplicacion" name="test_multiplicacion_fail" time="0.001"><failure message="assert 25 == 500&#10; +  where 25 = multiplicar(5, 5)">def test_multiplicacion_fail():
+&gt;       assert multiplicar(5,5)==500
+E       assert 25 == 500
+E        +  where 25 = multiplicar(5, 5)
+
+tests\test_multiplicacion.py:13: AssertionError</failure></testcase><testcase classname="tests.test_suma" name="test_suma" time="0.002" /><testcase classname="tests.test_suma" name="test_suma_fail" time="0.002"><failure message="assert 10 == 15&#10; +  where 10 = suma(5, 5)">def test_suma_fail():
+&gt;       assert suma(5,5)==15
+E       assert 10 == 15
+E        +  where 10 = suma(5, 5)
+
+tests\test_suma.py:13: AssertionError</failure></testcase></testsuite></testsuites>
