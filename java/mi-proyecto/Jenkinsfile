@@ -5,6 +5,7 @@ pipeline{
         stage('build'){
             steps{
                 sh 'cd java/mi-proyecto'
+                sh 'ls'
                 sh "mvn clean install"
 
             }
