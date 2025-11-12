@@ -4,8 +4,9 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh 'cd /java/mi-proyecto'
-                sh 'ls'
+                sh "cd /java/mi-proyecto"
+                sh "ls"
+                echo 
                 sh "mvn clean install"
 
             }
