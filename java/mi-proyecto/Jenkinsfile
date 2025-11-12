@@ -4,10 +4,8 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh "cd java/mi-proyecto"
-                sh "ls"
-                echo "este es el eco de build"
-                sh "mvn clean install"
+                sh "cd java/mi-proyecto && mvn clean install"
+               
 
             }
         }
