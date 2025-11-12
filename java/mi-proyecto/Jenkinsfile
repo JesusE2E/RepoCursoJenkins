@@ -6,7 +6,7 @@ pipeline{
             steps{
                 sh "cd /java/mi-proyecto"
                 sh "ls"
-                echo 
+                echo "este es el eco de build"
                 sh "mvn clean install"
 
             }
