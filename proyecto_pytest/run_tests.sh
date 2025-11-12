@@ -2,9 +2,14 @@
 
 
 echo "activando el entorno virtual"
+
+if[!"-d venv"]; then
+    python3 - venv venv
+fi
 source venv/bin/activate
 
 echo "instalando las dependencias"
+pip install --upgrade pip
 pip install -r requirements.txt
 
 echo "ejecutando pruebas con pytest"
